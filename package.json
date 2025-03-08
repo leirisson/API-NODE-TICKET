@@ -1,0 +1,22 @@
+{
+  "name": "api-node-ticket",
+  "version": "1.0.0",
+  "description": "projeto feito totalmente em node e javascript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leirisson/API-NODE-TICKET.git"
+  },
+  "keywords": [],
+  "author": "Leirisson souza dos santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leirisson/API-NODE-TICKET/issues"
+  },
+  "homepage": "https://github.com/leirisson/API-NODE-TICKET#readme"
+}

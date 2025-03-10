@@ -1,1 +1,22 @@
-{"ticket":[{"id":"eca63abd-3c25-4b53-809a-d62c9884ca61","equipament":"monitor","description":"monitor não liga","user_name":"Lucas de  souza","status":"open","created_at":"2025-03-10T14:35:09.107Z","update_at":"2025-03-10T14:35:09.107Z"},{"id":"9898b836-5c80-4ccc-b6a5-82849a0ff93a","equipament":"monitor","description":"monitor não liga","user_name":"Lucas de  souza","status":"open","created_at":"2025-03-10T14:35:10.920Z","update_at":"2025-03-10T14:35:10.920Z"},{"id":"1f30b037-3f95-4dd9-86eb-67396f6bfbdb","equipament":"monitor","description":"monitor não liga","user_name":"Lucas de  souza","status":"open","created_at":"2025-03-10T14:35:20.534Z","update_at":"2025-03-10T14:35:20.534Z"},{"id":"9786c494-6251-44cd-842d-f51b88747005","equipament":"monitor","description":"monitor não liga","user_name":"Lucas de  souza","status":"open","created_at":"2025-03-10T14:37:49.327Z","update_at":"2025-03-10T14:37:49.327Z"},{"id":"fb367de7-6f73-40d8-b3f0-117430027646","equipament":"monitor","description":"monitor não liga","user_name":"Lucas de  souza","status":"close","created_at":"2025-03-10T15:55:01.723Z","update_at":"2025-03-10T15:55:01.723Z"}]}
+{
+    "ticket": [
+        {
+            "id": "eca63abd-3c25-4b53-809a-d62c9884ca61",
+            "equipament": "monitor",
+            "description": "monitor não liga",
+            "user_name": "Lucas de  souza",
+            "status": "open",
+            "created_at": "2025-03-10T14:35:09.107Z",
+            "update_at": "2025-03-10T14:35:09.107Z"
+        },
+        {
+            "id": "9898b836-5c80-4ccc-b6a5-82849a0ff93a",
+            "equipament": "monitor",
+            "description": "monitor não liga",
+            "user_name": "Lucas de  souza",
+            "status": "close",
+            "created_at": "2025-03-10T14:35:10.920Z",
+            "update_at": "2025-03-10T14:35:10.920Z"
+        }
+    ]
+}

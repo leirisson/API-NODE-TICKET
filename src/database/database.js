@@ -42,11 +42,22 @@ export class Database {
 
 
     //listando todos os dados
-    select(tabela) {
-        
-        const dados = this.#database[tabela] ?? []
+    select(tabela, filters) {
 
-        return dados
+        let data = this.#database[tabela] ?? []
+
+        if (filters) {
+            data = data.filter(row => {
+
+                return Object.entries(filters).some(([key, value]) => {
+                    return row[key].toLowerCase().includes(value.toLowerCase())
+                })
+            })
+        }
+
+
+
+        return data
     }
 
 }

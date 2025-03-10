@@ -9,7 +9,7 @@ export function create({request, response, database}){
         equipament,
         description,
         user_name,
-        status: "open",
+        status: "close",
         created_at: new Date(),
         update_at: new Date(),
     }

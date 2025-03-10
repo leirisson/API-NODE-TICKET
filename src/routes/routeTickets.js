@@ -1,36 +1,36 @@
 import { create } from "../controllers/tickets/create.js"
-
+import { index } from '../controllers/tickets/index.js'
 export const ticketsRoute = [
     {
-        method:'GET',
+        method: 'GET',
         path: '/tickets',
-        controller: create,
+        controller: index,
 
     },
     {
-        method:'POST',
+        method: 'POST',
         path: '/tickets',
-        controller:  create
+        controller: create
     },
     {
-        method:'PUT',
+        method: 'PUT',
         path: '/tickets',
         controller: (request, response) => {
-            
+
         }
     },
     {
-        method:'POST',
+        method: 'POST',
         path: '/tickets',
         controller: (request, response) => {
-            
+
         }
     },
     {
-        method:'DELETE',
+        method: 'DELETE',
         path: '/tickets',
         controller: (request, response) => {
-            
+
         }
     }
 ]

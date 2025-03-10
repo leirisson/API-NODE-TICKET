@@ -1,20 +1,16 @@
-
+import { create } from "../controllers/tickets/create.js"
 
 export const ticketsRoute = [
     {
         method:'GET',
         path: '/tickets',
-        controller: (request, response) => {
-            return response.end('Lista de Tickets!')
+        controller: create,
 
-        }
     },
     {
         method:'POST',
         path: '/tickets',
-        controller: (request, response) => {
-            
-        }
+        controller:  create
     },
     {
         method:'PUT',

@@ -6,7 +6,7 @@ export function routeHandler(request, response) {
     })
 
     if(routes){
-        return routes.controller(request, response)
+        return routes.controller({request, response})
     }
 
     return response.writeHead(404).end('Pagina não encontrada.')

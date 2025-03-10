@@ -1,5 +1,8 @@
 import { create } from "../controllers/tickets/create.js"
 import { index } from '../controllers/tickets/index.js'
+import { update } from "../controllers/tickets/update.js"
+
+
 export const ticketsRoute = [
     {
         method: 'GET',
@@ -14,23 +17,7 @@ export const ticketsRoute = [
     },
     {
         method: 'PUT',
-        path: '/tickets',
-        controller: (request, response) => {
-
-        }
-    },
-    {
-        method: 'POST',
-        path: '/tickets',
-        controller: (request, response) => {
-
-        }
-    },
-    {
-        method: 'DELETE',
-        path: '/tickets',
-        controller: (request, response) => {
-
-        }
+        path: '/tickets/:id',
+        controller: update
     }
 ]

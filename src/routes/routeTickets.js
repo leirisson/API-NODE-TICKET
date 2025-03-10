@@ -5,7 +5,7 @@ export const ticketsRoute = [
         method:'GET',
         path: '/tickets',
         controller: (request, response) => {
-            response.end('criado com sucesso !')
+            return response.end('Lista de Tickets!')
 
         }
     },

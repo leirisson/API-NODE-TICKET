@@ -7,7 +7,8 @@
             "user_name": "Lucas de  souza",
             "status": "close",
             "created_at": "2025-03-10T14:35:09.107Z",
-            "update_at": "2025-03-10T14:35:09.107Z"
+            "update_at": "2025-03-10T14:35:09.107Z",
+            "solution": "Trocamso tudo."
         },
         {
             "id": "9898b836-5c80-4ccc-b6a5-82849a0ff93a",
@@ -17,7 +18,8 @@
             "status": "close",
             "created_at": "2025-03-10T14:35:10.920Z",
             "update_at": "2025-03-10T14:35:10.920Z",
-            "updated_at": "2025-03-11T16:47:38.525Z"
+            "updated_at": "2025-03-11T16:47:38.525Z",
+            "solution": "O problema era no cabo de alimentação do monitor"
         },
         {
             "id": "2c60be6a-7440-4e85-88bc-ba06f2602422",

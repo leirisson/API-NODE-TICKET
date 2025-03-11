@@ -21,8 +21,6 @@ export class Database {
         fs.writeFile(DATABASE_PATH, JSON.stringify(this.#database))
     }
 
-
-
     // metodo para inserir dados no arquivo
     insert(tabela, dados_para_inserir_no_banco) {
 
@@ -58,6 +56,21 @@ export class Database {
 
 
         return data
+    }
+
+
+    update(table, id, dado) {
+        const rowIndex = this.#database[table].findIndex(row => row.id === id)
+
+       if(rowIndex > -1 ){
+            this.#database[table][rowIndex] = {
+                ...this.#database[table][rowIndex],
+                ...dado
+            }
+
+            this.#persist()
+       }
+
     }
 
 }

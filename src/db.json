@@ -1,43 +1,13 @@
 {
     "ticket": [
         {
-            "id": "eca63abd-3c25-4b53-809a-d62c9884ca61",
+            "id": "0c4c3347-108f-4df3-8c68-54f01f0a97e0",
             "equipament": "monitor",
             "description": "monitor não liga",
             "user_name": "Lucas de  souza",
-            "status": "close",
-            "created_at": "2025-03-10T14:35:09.107Z",
-            "update_at": "2025-03-10T14:35:09.107Z",
-            "solution": "Trocamso tudo."
-        },
-        {
-            "id": "9898b836-5c80-4ccc-b6a5-82849a0ff93a",
-            "equipament": "processsador teclado ",
-            "description": "monitor não liga",
-            "user_name": "Lucas de  souza",
-            "status": "close",
-            "created_at": "2025-03-10T14:35:10.920Z",
-            "update_at": "2025-03-10T14:35:10.920Z",
-            "updated_at": "2025-03-11T16:47:38.525Z",
-            "solution": "O problema era no cabo de alimentação do monitor"
-        },
-        {
-            "id": "2c60be6a-7440-4e85-88bc-ba06f2602422",
-            "equipament": "monitor",
-            "description": "monitor não liga",
-            "user_name": "Lucas de  souza",
-            "status": "close",
-            "created_at": "2025-03-10T19:27:26.308Z",
-            "update_at": "2025-03-10T19:27:26.308Z"
-        },
-        {
-            "id": "818fd767-b7ef-44ae-a90d-7aaa2a594216",
-            "equipament": "teclado",
-            "description": "teclado não liga",
-            "user_name": "Lucas de  souza",
-            "status": "close",
-            "created_at": "2025-03-10T20:21:30.034Z",
-            "update_at": "2025-03-10T20:21:30.034Z"
+            "status": "open",
+            "created_at": "2025-03-11T17:26:44.125Z",
+            "update_at": "2025-03-11T17:26:44.125Z"
         }
     ]
 }

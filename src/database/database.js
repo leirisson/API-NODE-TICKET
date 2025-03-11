@@ -62,15 +62,24 @@ export class Database {
     update(table, id, dado) {
         const rowIndex = this.#database[table].findIndex(row => row.id === id)
 
-       if(rowIndex > -1 ){
+        if (rowIndex > -1) {
             this.#database[table][rowIndex] = {
                 ...this.#database[table][rowIndex],
                 ...dado
             }
 
             this.#persist()
-       }
+        }
 
+    }
+
+    delete(table, id) {
+        const rowIndex = this.#database[table].findIndex(row => row.id === id)
+
+        if (rowIndex > -1) {
+            this.#database[table].splice(rowIndex, 1)
+            this.#persist()
+        }
     }
 
 }
